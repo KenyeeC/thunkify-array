@@ -1,0 +1,25 @@
+{
+  "name": "thunkify-array",
+  "version": "1.0.0",
+  "description": "You can use thunkify-array to thunkify function as usual.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenyeeC/thunkify-array.git"
+  },
+  "keywords": [
+    "thunkify",
+    "array",
+    "iterate",
+    "iterator"
+  ],
+  "author": "kenyeecheung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KenyeeC/thunkify-array/issues"
+  },
+  "homepage": "https://github.com/KenyeeC/thunkify-array#readme"
+}
