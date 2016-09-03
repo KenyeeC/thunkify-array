@@ -2,9 +2,13 @@
 
 ##Feature
 You can use thunkify-array to thunkify function as usual.
+
 But if the first argument is an array, thunkify-array will iterates it and each item will be the fist argument.Like a iterator.
+
 And return a thunkify array
+
 For example 
+
 ```javascript
 thunkify-array(fs.readFile)(['index.js','package.json'],'utf-8');
 ```
