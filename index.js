@@ -5,9 +5,8 @@ function thunkify(fn){
     assert('function' == typeof fn, 'function required');
 
     return function(){
-
         let ctx = this;
-
+        //if the first argument is an array,it will work like a iterator
         if(arguments[0] instanceof Array ){
             let iterator = [];
             let args = arguments;
@@ -16,7 +15,6 @@ function thunkify(fn){
                     let called;
                     let tempArgs = new Array(args.length);
                     for(let i = 0; i < tempArgs.length; ++i) {
-
                         if(i == 0){
                             tempArgs[0] = arg;
                         }else{
@@ -38,7 +36,7 @@ function thunkify(fn){
             }
             return iterator;
         }
-
+        //else ,it work like a common thunkify
         let args = new Array(arguments.length);
         for(let i = 0; i < args.length; ++i) {
             args[i] = arguments[i];
