@@ -1,7 +1,7 @@
 # thunkify-array
 
 ##Feature
-You can use thunkify-array to thunkify function as usual.
+You can use thunkify an array like yield an array.
 
 But if the first argument is an array, thunkify-array will iterates it and each item will be the fist argument.Like a iterator.
 
