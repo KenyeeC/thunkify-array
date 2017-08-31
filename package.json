@@ -1,6 +1,6 @@
 {
   "name": "thunkify-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "You can use thunkify-array to thunkify function as usual.",
   "main": "index.js",
   "scripts": {
